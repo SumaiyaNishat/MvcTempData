@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<main aria-labelledby="title">
+    @if (TempData["Message"] != null)
+            {
+                <p style="color: green; font-weight:bold">@TempData["Message"]</p>
+            }
+</main>
